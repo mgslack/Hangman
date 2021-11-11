@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="Author" content="Michael G. Slack">
+    <title>Hangman Help</title>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Hangman, classic word guessing game - Help</h1>
+    </div>
+    <img style="width: 96px; height: 101px; float: left; padding: 0px 5px 5px 0px;" alt="Hangman Image" src="Hangman_help.bmp">
+    <p>This version of Hangman is a simple and fast paced game.  When starting a new game, you
+	   are prompted to either randomly select a word from a given word list file, or enter a word
+	   manually to use for the game.  Then, you'll guess the letters in the word till you have
+	   guessed the word or have had the hangman drawn completely in, normally around 6 guess misses.
+	   Once you fill in all of the letters of the word, via guessing letters or have entered a correct
+	   guess of the word, you win the current game.  You then can start a new game and a new word
+	   to guess.</p>
+    <p>The number of words guessed correctly and number of words not guessed during the current game
+	   session is kept as counters on the screen.</p>
+    <div style="font-weight:bold;">Game Options:</div>
+    <div>The game of Hangman has several options that can affect behavior. Below is a description of
+       each option and its effect.</div>
+    <ul>
+      <li>Prompts On = Turns on yes/no prompts at several points in the game.  This is off by default.
+      <li>Sounds On = Turns on/off incidental sounds used in the game. Default is off.
+      <li>Word List Filename = Name of file that contains the words to be used by the game for player
+	      to guess.  Game has two files available, the default one used, containing around 700 english
+		  words, hm_words.txt.  The second file, hm_woerter.txt, contains around 2600 words in german.
+		  Can use any other text file containing words, but game defines words using the english
+		  alphabet (26 letters, A - Z).  Can either copy/type in a file name (including path) or
+		  select a file using the select file button next to the entry field.
+      <li>Difficulty = Can set difficulty to Normal, Easy or Easiest.  Default is normal, each wrong
+	      guess draws another piece on the hangman picture.  Setting to easy, every other wrong guess
+		  will drawn a new piece to the hangman.  Using easiest, every 3 wrong guesses will draw a
+		  new piece to the hangman.  Normal gives 6 chances, easy gives 12, while easiest gives 18.
+    </ul>
+    <p>For more information about Hangman and it's variants, see
+       <a href="https://en.wikipedia.org/wiki/Hangman_(game)">Wikipedia Hangman</a>.</p>
+    <div style="text-align: center; font-size: smaller;">
+      &copy;2021 Slack &amp; Associates / M. G. Slack
+    </div>
+  </body>
+</html>
