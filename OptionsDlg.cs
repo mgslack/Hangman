@@ -12,7 +12,8 @@ using System.Windows.Forms;
  *
  * ----------------------------------------------------------------------------
  * 
- * Updated: yyyy-mm-dd - xxxxx.
+ * Updated: 2022-03-10 - Updated radio button event handlers to only processed
+ *                       if 'checked'.
  * 
  */
 namespace Hangman
