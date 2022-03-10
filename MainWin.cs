@@ -17,11 +17,11 @@ using GameStatistics;
  * 
  * Author: Michael G. Slack
  * Written: 2021-11-03
- * Version: 1.0.0.1
+ * Version: 1.0.0.0
  * 
  * ----------------------------------------------------------------------------
  * 
- * Updated: 2022-03-10 - Slight update to some option dialog event handlers.
+ * Updated: yyyy-mm-dd - xxxxx.
  * 
  */
 namespace Hangman
