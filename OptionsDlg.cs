@@ -12,7 +12,8 @@ using System.Windows.Forms;
  *
  * ----------------------------------------------------------------------------
  * 
- * Updated: yyyy-mm-dd - xxxxx.
+ * Updated: 2022-03-10 - Updated radio button event handlers to only processed
+ *                       if 'checked'.
  * 
  */
 namespace Hangman
@@ -67,17 +68,17 @@ namespace Hangman
 
         private void RbNormal_CheckedChanged(object sender, EventArgs e)
         {
-            _difficulty = 1;
+            if (rbNormal.Checked) _difficulty = 1;
         }
 
         private void RbEasy_CheckedChanged(object sender, EventArgs e)
         {
-            _difficulty = 2;
+            if (rbEasy.Checked) _difficulty = 2;
         }
 
         private void RbEasiest_CheckedChanged(object sender, EventArgs e)
         {
-            _difficulty = 3;
+            if (rbEasiest.Checked) _difficulty = 3;
         }
 
         private void BtnSelFN_Click(object sender, EventArgs e)
